@@ -1,0 +1,21 @@
+link(rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css")
+link(href='home.css', rel='stylesheet')
+
+div(class = 'container')
+  div(class = 'jumbotron')
+    h1 Time Machine
+    img(src='http://forums.azbilliards.com/attachment.php?attachmentid=245892&d=1351301038')
+  h2 Instructions
+  ol
+    li Plug a time into the url after the site name like so: .../January11990
+    ul
+      li Format needs to be either Pretty or Unix format
+      li Pretty-style: January 1, 1990
+      ul
+        li Mind you, the compiler will be pretty lenient with this format.
+      li Unix-style: 631173600000
+    li Hit Enter
+    li You will then see Unix and Pretty format for your chosen date
+    li Feel free to use as an API for your apps
+    
+

@@ -1,0 +1,24 @@
+li {
+  font-size: 18px;
+}
+
+img {
+    margin-top: -40px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 170px;
+    width: 170px;
+    float: right;
+}
+
+h1 {
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px){
+  img {
+    margin-top: -20px;
+    height: 100px;
+    width: 100px;
+  }
+}
