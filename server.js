@@ -41,6 +41,4 @@ app.get('/:date?', function(req, res){
   }
 })
 
-var server = http.createServer(app).listen(8080, function(){
-  console.log("listening...");
-});
+var server = http.createServer(app).listen(Number(process.env.PORT) || 3000);
