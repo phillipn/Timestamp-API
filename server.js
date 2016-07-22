@@ -17,7 +17,7 @@ function parseTime(time) {
       natural: months[time.getMonth()] + ' ' + time.getDate() + ', ' + time.getFullYear(),
       unixtime: regToUnix
     };
-  } else if (unixToReg !== 'Invalid Date') {
+  } else if (unixToReg !== 'Invalid Date' && months[unixToReg.getMonth()]) {
     return {
       natural: months[unixToReg.getMonth()] + ' ' + unixToReg.getDate() + ', ' + unixToReg.getFullYear(),
       unixtime: time
